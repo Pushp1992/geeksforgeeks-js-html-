@@ -1,0 +1,84 @@
+#main {
+    font-size: xx-large;
+    text-align: center;
+    background-color: whitesmoke;
+
+    min-height: 5rem;
+    padding: 20rem;
+    /* margin: 10rem; */
+}
+
+.parent {
+    display: block;
+    background-color: wheat;
+}
+
+.child {
+    display: inline;
+}
+
+#child-1 {
+    background-color: aqua;
+}
+
+#child-2 {
+    background-color: burlywood;
+}
+
+
+/* CSS Selectors  */
+
+/* 1. COMBINATOR SELECTOR */
+
+div span {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+div label {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* div > span {
+    color: palevioletred;
+} */
+
+#main2 > span {
+    display: block;
+    color: palevioletred;
+}
+
+/* 2. Adjacent sibling selector (+) */
+
+div + h4 {
+    background-color: yellow;
+}
+
+/* 3. General sibling selector (+) */
+
+
+div ~ h5 {
+    background-color: orange;
+}
+
+
+/***** ATRIBUTE SELECTOR ******/
+
+h4[name] {
+    text-decoration: line-through;
+}
+
+
+/* Universal selector (+) -  (ALSO talk about CSS PRESEDENCE) */ 
+
+* {
+    color: green !important;
+}
+
+
+/* CSS group selector or element selector */
+
+div {
+    font-style: italic;
+}

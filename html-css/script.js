@@ -1,0 +1,1 @@
+alert('script called from external file');
